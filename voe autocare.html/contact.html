@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | VOE AutoCare</title>
+
+    <style>
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            background: #080808;
+            color: white;
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+        }
+
+        header, footer {
+            background: #111;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav { display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; }
+        nav a, footer a { color: white; text-decoration: none; }
+        a:hover { color: #168cff; }
+        span { color: #168cff; }
+
+        main {
+            max-width: 750px;
+            margin: auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .contact-card {
+            background: #151515;
+            border: 1px solid #292929;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #168cff;
+            color: white;
+            padding: 12px 22px;
+            margin: 10px 5px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+
+        .whatsapp { background: #168cff; }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>VOE <span>AutoCare</span></h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <h1>Contact <span>Us</span></h1>
+    <p>
+        Ready to transform your vehicle?
+        Contact us to ask questions or request a quote.
+    </p>
+
+    <div class="contact-card">
+        <h2>WhatsApp</h2>
+        <p>Chat with us about your vehicle and the service you need.</p>
+
+        <!-- Replace 234XXXXXXXXXX with the business number -->
+        <a class="button whatsapp"
+           href="https://wa.me/2348145277576."
+           target="_blank"
+           rel="noopener noreferrer">
+            Chat on WhatsApp
+        </a>
+    </div>
+
+    <div class="contact-card">
+        <h2>TikTok</h2>
+        <p>Follow our automotive work and transformations.</p>
+
+        <!-- Replace with the real TikTok profile URL -->
+        <a class="button"
+           href="https://www.tiktok.com/@voe_autocare1?_r=1&_tzs-9AfNCc99mYH"
+           target="_blank"
+           rel="noopener noreferrer">
+            Visit Our TikTok
+        </a>
+    </div>
+
+    <div class="contact-card">
+        <h2>Business Enquiries</h2>
+        <p>
+            Tell us your vehicle model, the service you need,
+            and your preferred appointment date through WhatsApp.
+        </p>
+        <a class="button" href="services.html">View Our Services</a>
+    </div>
+</main>
+
+<footer>
+    <p>VOE AutoCare | Premium Automotive Care</p>
+    <a href="index.html">Back to Home</a>
+</footer>
+
+</body>
+</html>
